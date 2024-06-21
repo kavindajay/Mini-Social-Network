@@ -1,3 +1,9 @@
 mat-form-fiedl,textarea{
     width: 100%;
 }
+
+form{
+    display: grid;
+    width: 80%;
+    margin: 1rem auto;
+}
