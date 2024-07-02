@@ -5,6 +5,10 @@ import { response } from 'express';
 import { Subject } from 'rxjs';
 import { Router } from '@angular/router';
 
+import { environment } from '../../environments/evironment';
+
+const BACKEND_URL = environment.apiUrl + '/user';
+
 @Injectable({
   providedIn: 'root',
 })

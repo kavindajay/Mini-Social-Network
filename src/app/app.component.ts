@@ -7,6 +7,7 @@ import { AuthService } from './auth/auth.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
+  title = 'mean-course';
   constructor(private authservice: AuthService) {}
   ngOnInit(): void {
     this.authservice.autoAuthUser();
